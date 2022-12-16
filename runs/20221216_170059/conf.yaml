@@ -1,0 +1,33 @@
+sample_rate: 16000
+val_fraction: 0.1
+idx_to_keyword:
+- sber
+- joy
+- afina
+- salut
+- filler
+device: cpu
+model:
+  kernels:
+  - 3
+  - 3
+  strides:
+  - 2
+  - 2
+  channels:
+  - 32
+  - 32
+  hidden_size: 16
+  activation: ReLU
+optim:
+  lr: 0.001
+  n_epochs: 10
+  batch_size: 64
+features:
+  n_fft: 400
+  win_length: 400
+  hop_length: 160
+  n_mels: 64
+augs:
+  freq_mask_param: 0
+  time_mask_param: 0
