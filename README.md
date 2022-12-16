@@ -1,6 +1,7 @@
 # spotter
 
 Никнейм kaggle: <a href="https://www.kaggle.com/alexandrbykov111">Alexandr_Bykov</a>
+
 Попробовал увеличить архитектуру, аугментации не трогал.
 Добавлял лр шедулер, не особо помогло, убрал. 
 
